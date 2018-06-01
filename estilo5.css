@@ -1,0 +1,161 @@
+* {
+margin: 0px;
+padding: 0px;
+border: 0px solid black;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+#cabeza{
+display: block;
+position: fixed;
+width: 100%;
+height: auto;
+background: #303030;
+border: 1px solid #999999;
+background-image: url("img/3shcort.png");
+background-position: 0% 0%;
+background-size: 60px 60px;
+background-repeat: no-repeat;
+}
+.titulo{
+margin: 0.9%;
+color: #D0D0D0;
+text-align: center;
+text-shadow: 14px 5px 1px #000000;
+}
+
+#menu-0 ul{
+color: #303030;
+font: bold 15px verdana, sans-serif;
+margin: 1px;
+color: #000033;
+background: #707070;
+padding: 0px;
+width: auto;
+height: auto;
+list-style:none;
+}
+#menu>li {
+	display: inline-block;
+}
+#menu>li>a {
+	display: block;
+	padding: 5px 20px;
+	width: 200px;
+	height: auto;
+}
+li ul{
+position: absolute;
+display: none;
+}
+.submenu a{
+	display: block;
+	padding: 5px 20px;
+	width: 200px;
+	height: auto;
+}
+li:hover ul {
+	display:block;
+}
+#menu-0, li ul{
+	background: #333;
+}
+#menu{
+	width: 30%;
+	margin: 0 auto;
+}
+#menu a{
+	color: #fff;
+	text-decoration: none;
+	font-weight:bold;
+}
+#menu li:hover{
+	background: #DCDCDC;
+	text-shadow: 0 0 3px #000000;
+}
+
+#seccion{
+display: inline-block;
+float: center;
+width: 100%;
+height: auto;
+text-align: center;
+border: 1px solid #999999;
+display: inline-block;
+float: center;
+background-image: url("img/poder.jpg"); 
+background-size: 100% 100%;
+background-repeat: no-repeat;
+border: 2px solid #999999;
+padding: 12% 0%;
+}
+#seccion article {	
+text-decoration: none;
+font-size: 25px;
+font-family: Cursive;
+padding: -2% 0%;
+color:orange;
+}
+#seccion a{
+text-decoration: none;
+font-size: 25px;
+font-family: Cursive;
+color:orange;
+}
+#seccion a:hover {
+	color: #cc0000;
+	font-weight: bold;         
+	text-decoration: none;
+}
+
+#aside{ 
+display: block;
+right:0; 
+top:150px;
+z-index:2000px;
+position: fixed;
+background-color:#707070; 
+box-shadow: inset 5px 5px 10px #303030;  
+}
+#aside ul{
+list-style:none;
+}
+#aside ul li a {
+display: inline-block;
+color: #fff;
+background: #000;
+padding: 20px 14px;
+text-decoration: none;
+-webkit-transition:all 500ms ease;
+-moz-transition:all 500ms ease;
+transition:all 500ms ease;
+}
+#aside ul li .icon-facebook {background: #707070; box-shadow: inset 5px 5px 10px #303030; }
+#aside ul li .icon-twitter {background: #707070; box-shadow: inset 5px 5px 10px #303030; }
+#aside ul li .icon-google-plus {background: #707070; box-shadow: inset 5px 5px 10px #303030; }
+
+#aside ul .f a:hover{
+background: #3b5998;
+}
+#aside ul .t a:hover{
+background: #00abf0;
+}
+#aside ul .gp a:hover{
+background: #d95232;
+}
+
+#pie{
+margin: 0% 0% 0% 0%;  
+clear:both;
+color: #D0D0D0;
+display: block;
+float: center; 
+text-align: center;
+background-color:#303030;
+width: 100%;
+height: 5%;
+box-shadow: inset 5px 5px 20px #707070;
+padding:6px 0px;
+}
+
