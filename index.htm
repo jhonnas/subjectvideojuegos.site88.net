@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+        <title>VideoJuegos</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css\sliderestilo.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="js\matrixjs.js"></script>
+</head>
+<body>
+    <div id="cont-slider">
+        <div id="slider">
+            <section>
+                <img src="img\img1.jpg" alt="">
+            </section>
+            <section>
+                <img src="img\img2.jpg" alt="">
+            </section>
+            <section>
+                <img src="img\img3.jpg" alt="">
+            </section>
+            <section>
+                <img src="img\img4.jpg" alt="">
+            </section>
+            <section>
+                <img src="img\img5.jpg" alt="">
+            </section>
+            <section>
+                <img src="img\img6.jpg" alt="">
+            </section>
+            <section>
+                <img src="img\img7.jpg" alt="">
+            </section>
+            <section>
+                <img src="img\img8.jpg" alt="">
+            </section>
+            <section>
+                <img src="img\img9.jpg" alt="">
+            </section>
+        </div>
+        <div id="btn-prev">&#60;</div>
+        <div id="btn-next">&#62;</div>
+    </div>
+    
+    <input type="checkbox" id="cerrar">
+    <label for="cerrar" id="btn-modal-cerrar">X</label>
+    <div class="modal">
+        <div class="contenido">
+            <img src="img\imgmodal.jpg" alt="">
+            <h2>Bienvenid&#64; a mi pagina Genialidad Errante</h2>
+        </div>
+    </div>
+    
+    <div class="contenedor">
+            <div id="sliderinfinito1"></div>
+    </div>
+    
+    <nav id="tab">
+        <ul>
+            <a href="imagenes.html"><li>IMAGENES</li></a>
+            <a href="videos.html"><li>VIDEOS</li></a>
+        </ul>
+        <ul>
+            <a href="informacion.html"><li>INFORMACION</li></a>
+            <a href="matrix.html"><li>ACERCA</li></a>
+        </ul>
+    </nav>
+    <div class="contenedor">
+            <div id="sliderinfinito2"></div>
+    </div>
+    
+    <canvas id="lienzo" width="1350" height="1000">
+	Su navegador no soporta el elemento canvas
+	</canvas>
+   
+    <script src="js\sliderfuncion.js"></script>
+</body>
+</html>

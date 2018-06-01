@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: verdana;
+    background-image:url("../img/imgfondo.jpg");
+    margin:auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+#men{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+ul#navmenu, ul.sub1, ul.sub2{
+    list-style-type: none;
+    font-size: 9pt;
+}
+ul#navmenu li{
+    width: 125px;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-right: 4px;
+}
+ul#navmenu a{
+    text-decoration: none;
+    display: block;
+    width: 125px;
+    height: 25px;
+    line-height: 25px;
+    background-color: black;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+ul#navmenu .sub1 a{
+    margin-top: 5px;
+}
+ul#navmenu .sub2 a{
+    margin-left: 10px;
+}
+ul#navmenu li:hover>a{
+    background-color: dimgray;
+}
+ul#navmenu li:hover a:hover{
+    background-color: white;
+}
+ul#navmenu ul.sub1{
+    display: none;
+    position: absolute;
+    top: 26px;
+    left: 0px;
+}
+ul#navmenu ul.sub2{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 126px;
+}
+ul#navmenu li:hover .sub1{
+    display: block;
+}
+ul#navmenu .sub1 li:hover .sub2{
+    display: block;
+}
+.d-arrow{
+    font-size: 11pt;
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    color: white;
+}
+.r-arrow{
+    font-size: 11pt;
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: goldenrod;
+    margin-top: 20px;
+    text-shadow: 0px 0px 30px gold;
+}
+.galeria{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria li{
+    margin: 5px;
+}
+.galeria img{
+    width: 150px;
+    height: 100px;
+}
+.modal{
+    position: absolute;
+    top: -20%;
+    visibility: hidden;
+    opacity: 0;
+}
+.modal:target{
+    visibility: visible;
+    opacity: 1;
+    transition: all .5s;
+    position: fixed;
+    background: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+.imagen{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+.imagen img{
+    width: 500px;
+    height: 300px;
+    max-width: 100%;
+    border: 7px solid white;
+    box-sizing: border-box;
+}
+.cerrar{
+    display: block;
+    background: white;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+}
+.v{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+table{
+    text-align: center;
+     margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+td{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-image: url("../img/imgli.jpg");
+}
+table img{
+    box-shadow: 0px 0px 10px white;
+}
+
+.contenedor{
+    width: 800px;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px white;
+    margin-top: 40px;
+}
+#sliderinfinito3{
+    width: 3000px;
+    height: 150px;
+    
+    background-image: url("../img/sliderinfinito3.jpg");
+    background-size: 100% 100%;
+    
+    animation: slider 15s infinite linear ;
+}
+
+#sliderinfinito4{
+    width: 3000px;
+    height: 150px;
+    
+    background-image: url("../img/sliderinfinito4.jpg");
+    background-size: 100% 100%;
+    
+    animation: slider 15s infinite linear ;
+}
+@keyframes slider {
+    to{
+        background-position: 3000px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
