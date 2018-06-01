@@ -1,4 +1,4 @@
-	var ALTO_LETRA = 20, ALTO = 1000, ANCHO = 1350, cv, cx, cadenas = [];
+	var ALTO_LETRA = 20, ALTO = 1000, ANCHO = 2000, cv, cx, cadenas = [];
 	function limpiarPantalla() {
 		cx.fillStyle = '#000';
 		cx.fillRect(0,0,ANCHO,ALTO);}
